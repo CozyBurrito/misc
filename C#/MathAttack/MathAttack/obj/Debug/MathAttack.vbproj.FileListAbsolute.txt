@@ -1,0 +1,11 @@
+D:\Mohammad-PC\Documents\Personal\C#\MathAttack\MathAttack\bin\Debug\MathAttack.exe.config
+D:\Mohammad-PC\Documents\Personal\C#\MathAttack\MathAttack\bin\Debug\MathAttack.exe
+D:\Mohammad-PC\Documents\Personal\C#\MathAttack\MathAttack\bin\Debug\MathAttack.pdb
+D:\Mohammad-PC\Documents\Personal\C#\MathAttack\MathAttack\bin\Debug\MathAttack.xml
+D:\Mohammad-PC\Documents\Personal\C#\MathAttack\MathAttack\obj\Debug\MathAttack.vbprojResolveAssemblyReference.cache
+D:\Mohammad-PC\Documents\Personal\C#\MathAttack\MathAttack\obj\Debug\MathAttack.Form1.resources
+D:\Mohammad-PC\Documents\Personal\C#\MathAttack\MathAttack\obj\Debug\MathAttack.Resources.resources
+D:\Mohammad-PC\Documents\Personal\C#\MathAttack\MathAttack\obj\Debug\MathAttack.vbproj.GenerateResource.Cache
+D:\Mohammad-PC\Documents\Personal\C#\MathAttack\MathAttack\obj\Debug\MathAttack.exe
+D:\Mohammad-PC\Documents\Personal\C#\MathAttack\MathAttack\obj\Debug\MathAttack.xml
+D:\Mohammad-PC\Documents\Personal\C#\MathAttack\MathAttack\obj\Debug\MathAttack.pdb

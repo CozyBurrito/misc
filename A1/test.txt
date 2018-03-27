@@ -1,0 +1,113 @@
+29
+0 1 2 3 4 5 6 7 8 9 a b c d e f g h i j k m n o p q r s t
+
+0 1 2 3 4 5 6 7 8 9 a b c d e f g h i j k m n o p q r s t
+1 2 3 4 5 6 7 8 9 a b c d e f g h i j k m n o p q r s t 0
+2 3 4 5 6 7 8 9 a b c d e f g h i j k m n o p q r s t 0 1
+3 4 5 6 7 8 9 a b c d e f g h i j k m n o p q r s t 0 1 2
+4 5 6 7 8 9 a b c d e f g h i j k m n o p q r s t 0 1 2 3
+5 6 7 8 9 a b c d e f g h i j k m n o p q r s t 0 1 2 3 4
+6 7 8 9 a b c d e f g h i j k m n o p q r s t 0 1 2 3 4 5
+7 8 9 a b c d e f g h i j k m n o p q r s t 0 1 2 3 4 5 6
+8 9 a b c d e f g h i j k m n o p q r s t 0 1 2 3 4 5 6 7
+9 a b c d e f g h i j k m n o p q r s t 0 1 2 3 4 5 6 7 8
+a b c d e f g h i j k m n o p q r s t 0 1 2 3 4 5 6 7 8 9
+b c d e f g h i j k m n o p q r s t 0 1 2 3 4 5 6 7 8 9 a
+c d e f g h i j k m n o p q r s t 0 1 2 3 4 5 6 7 8 9 a b
+d e f g h i j k m n o p q r s t 0 1 2 3 4 5 6 7 8 9 a b c
+e f g h i j k m n o p q r s t 0 1 2 3 4 5 6 7 8 9 a b c d
+f g h i j k m n o p q r s t 0 1 2 3 4 5 6 7 8 9 a b c d e
+g h i j k m n o p q r s t 0 1 2 3 4 5 6 7 8 9 a b c d e f
+h i j k m n o p q r s t 0 1 2 3 4 5 6 7 8 9 a b c d e f g
+i j k m n o p q r s t 0 1 2 3 4 5 6 7 8 9 a b c d e f g h
+j k m n o p q r s t 0 1 2 3 4 5 6 7 8 9 a b c d e f g h i
+k m n o p q r s t 0 1 2 3 4 5 6 7 8 9 a b c d e f g h i j
+m n o p q r s t 0 1 2 3 4 5 6 7 8 9 a b c d e f g h i j k
+n o p q r s t 0 1 2 3 4 5 6 7 8 9 a b c d e f g h i j k m
+o p q r s t 0 1 2 3 4 5 6 7 8 9 a b c d e f g h i j k m n
+p q r s t 0 1 2 3 4 5 6 7 8 9 a b c d e f g h i j k m n o
+q r s t 0 1 2 3 4 5 6 7 8 9 a b c d e f g h i j k m n o p
+r s t 0 1 2 3 4 5 6 7 8 9 a b c d e f g h i j k m n o p q
+s t 0 1 2 3 4 5 6 7 8 9 a b c d e f g h i j k m n o p q r
+t 0 1 2 3 4 5 6 7 8 9 a b c d e f g h i j k m n o p q r s
+
+9
+1 2 3 4 5 6 7 8 9
+
+9
+X X X X X X X X X
+X X . . . X . . X
+X . . . . X . . X
+X . . X . . . . X
+X X X . . . X X X
+X . . . X . . . X
+X . . . . X . . X
+X X X . . X . . X
+X X X X X X X X X
+
+26
+2 1 > 6
+6 1 > 4
+1 2 > j
+6 2 > 3
+1 3 > h
+4 3 > c
+3 4 > p
+1 5 > i
+5 5 > c
+1 6 > t
+6 6 > g
+3 7 > g
+6 7 > 4
+2 1 V j
+3 1 V 3
+4 1 V j
+6 1 V 9
+7 1 V 7
+1 2 V 9
+5 3 V c
+3 4 V 0
+1 5 V 7
+2 5 V h
+6 5 V b
+7 5 V k
+4 6 V h
+
+The surrounding Xs are not needed but they make
+it so that you do not have to check both for a 
+block and the end of the board when figuring
+out the extent of a word.
+
+Since the largest number in the puzzle is 29, we
+can easily make do with a group of size 29.
+
+The following is a convenient table for figuring out what clue symbols
+correspond to what clue numbers:
+0123456789abcdefghijkmnopqrst
+          1111111111222222222
+01234567890123456789012345678
+
+(Note that the symbol 0 is used for the number 29).
+
+This puzzle is a Classic Kakuro 8x8 puzzle from:
+   www.conceptispuzzles.com.
+
+The exact link to the puzzle the day that I played it was:
+
+http://www.conceptispuzzles.com/index.aspx?uri=puzzle/euid/01000000ce213d956579f45c922470a42a1ddd24a56bbb8609ef8b254177a8148ac8e8cc16c36716cb777e1ba8f2bf5102aa94b6/play
+
+A screen-shot is saved in Classic8x8.png
+
+A screen-shot of the solved puzzle is saved in Classic8x8solved.png
+
+The solution is as follows:
+X X X X X X X X X
+X X 3 1 2 X 3 1 X
+X 1 7 2 9 X 1 2 X
+X 8 9 X 1 2 5 4 X
+X X X 8 7 9 X X X
+X 1 8 9 X 1 3 8 X
+X 6 9 5 8 X 7 9 X
+X X X 7 9 X 1 3 X
+X X X X X X X X X
+

@@ -1,0 +1,14 @@
+D:\Mohammad-PC\Documents\Personal\C#\A2\A2\bin\Debug\A2.exe.config
+D:\Mohammad-PC\Documents\Personal\C#\A2\A2\bin\Debug\A2.exe
+D:\Mohammad-PC\Documents\Personal\C#\A2\A2\bin\Debug\A2.pdb
+D:\Mohammad-PC\Documents\Personal\C#\A2\A2\obj\Debug\A2.csprojResolveAssemblyReference.cache
+D:\Mohammad-PC\Documents\Personal\C#\A2\A2\obj\Debug\MainWindow.g.cs
+D:\Mohammad-PC\Documents\Personal\C#\A2\A2\obj\Debug\App.g.cs
+D:\Mohammad-PC\Documents\Personal\C#\A2\A2\obj\Debug\A2_MarkupCompile.cache
+D:\Mohammad-PC\Documents\Personal\C#\A2\A2\obj\Debug\A2_MarkupCompile.lref
+D:\Mohammad-PC\Documents\Personal\C#\A2\A2\obj\Debug\MainWindow.baml
+D:\Mohammad-PC\Documents\Personal\C#\A2\A2\obj\Debug\A2.g.resources
+D:\Mohammad-PC\Documents\Personal\C#\A2\A2\obj\Debug\A2.Properties.Resources.resources
+D:\Mohammad-PC\Documents\Personal\C#\A2\A2\obj\Debug\A2.csproj.GenerateResource.Cache
+D:\Mohammad-PC\Documents\Personal\C#\A2\A2\obj\Debug\A2.exe
+D:\Mohammad-PC\Documents\Personal\C#\A2\A2\obj\Debug\A2.pdb

@@ -1,0 +1,13 @@
+D:\Mohammad-PC\Documents\Personal\C#\A1\A1\bin\Release\A1.exe.config
+D:\Mohammad-PC\Documents\Personal\C#\A1\A1\bin\Release\A1.exe
+D:\Mohammad-PC\Documents\Personal\C#\A1\A1\bin\Release\A1.pdb
+D:\Mohammad-PC\Documents\Personal\C#\A1\A1\obj\Release\MainWindow.g.cs
+D:\Mohammad-PC\Documents\Personal\C#\A1\A1\obj\Release\App.g.cs
+D:\Mohammad-PC\Documents\Personal\C#\A1\A1\obj\Release\A1_MarkupCompile.cache
+D:\Mohammad-PC\Documents\Personal\C#\A1\A1\obj\Release\A1_MarkupCompile.lref
+D:\Mohammad-PC\Documents\Personal\C#\A1\A1\obj\Release\MainWindow.baml
+D:\Mohammad-PC\Documents\Personal\C#\A1\A1\obj\Release\A1.g.resources
+D:\Mohammad-PC\Documents\Personal\C#\A1\A1\obj\Release\A1.Properties.Resources.resources
+D:\Mohammad-PC\Documents\Personal\C#\A1\A1\obj\Release\A1.csproj.GenerateResource.Cache
+D:\Mohammad-PC\Documents\Personal\C#\A1\A1\obj\Release\A1.exe
+D:\Mohammad-PC\Documents\Personal\C#\A1\A1\obj\Release\A1.pdb

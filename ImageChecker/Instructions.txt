@@ -1,0 +1,4 @@
+1. Copy all images into ./All
+3. Create list of files needed, comma delim, named list.txt, save in current directory
+4. Run Move.exe
+5. Find files from list.txt in ./List

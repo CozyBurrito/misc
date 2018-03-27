@@ -1,0 +1,103 @@
+import React, { Component } from 'react';
+import { Image, ListView, StyleSheet, Text, View } from 'react-native';
+
+var REQUEST_URL = '.json';
+
+export default class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      dataSource: new ListView.DataSource({
+        rowHasChanged: (row1, row2) => row1 !== row2,
+      }),
+      loaded: false,
+    };
+  }
+
+  componentDidMount() {
+    this.fetchData();
+  }
+
+  fetchData() {
+    fetch(REQUEST_URL)
+      .then(response => response.json())
+      .then(responseData => {
+        this.setState({
+          dataSource: this.state.dataSource.cloneWithRows(responseData.towns),
+          loaded: true,
+        });
+      })
+      .done();
+  }
+
+  render() {
+    if (!this.state.loaded) {
+      return this.renderLoadingView();
+    }
+
+    return (
+      <ListView
+        dataSource={this.state.dataSource}
+        renderRow={this.renderTown}
+        style={styles.listView}
+      />
+    );
+  }
+
+  renderLoadingView() {
+    return (
+      <View style={styles.container}>
+        <Text>
+          Loading data...
+        </Text>
+      </View>
+    );
+  }
+
+  renderTown(town) {
+    return (
+      <View style={styles.container}>
+        <Image source={{ uri: town.flag }} style={styles.thumbnail} />
+        <View style={styles.rightContainer}>
+          <Text style={styles.id}>ID: {town.id}</Text>
+          <Text style={styles.name}>Name: {town.name}</Text>
+          <Text style={styles.population}>Pop: {town.population}</Text>
+          <Text>{'\n\n\n'}</Text>
+        </View>
+      </View>
+    );
+  }
+}
+
+var styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+  },
+  rightContainer: {
+    flex: 1,
+    paddingTop: 40,
+  },
+  id: {
+    textAlign: 'center',
+  },
+  name: {
+    textAlign: 'center',
+  },
+  population: {
+    textAlign: 'center',
+  },
+  thumbnail: {
+    flex: 1,
+    width: 75,
+    height: 75,
+    resizeMode: 'contain',
+  },
+  listView: {
+    paddingTop: 40,
+    backgroundColor: '#F5FCFF',
+  },
+});

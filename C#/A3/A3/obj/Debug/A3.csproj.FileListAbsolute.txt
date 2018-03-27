@@ -1,0 +1,14 @@
+D:\Mohammad-PC\Documents\Personal\C#\A3\A3\bin\Debug\A3.exe.config
+D:\Mohammad-PC\Documents\Personal\C#\A3\A3\bin\Debug\A3.exe
+D:\Mohammad-PC\Documents\Personal\C#\A3\A3\bin\Debug\A3.pdb
+D:\Mohammad-PC\Documents\Personal\C#\A3\A3\obj\Debug\A3.csprojResolveAssemblyReference.cache
+D:\Mohammad-PC\Documents\Personal\C#\A3\A3\obj\Debug\MainWindow.g.cs
+D:\Mohammad-PC\Documents\Personal\C#\A3\A3\obj\Debug\App.g.cs
+D:\Mohammad-PC\Documents\Personal\C#\A3\A3\obj\Debug\A3_MarkupCompile.cache
+D:\Mohammad-PC\Documents\Personal\C#\A3\A3\obj\Debug\A3_MarkupCompile.lref
+D:\Mohammad-PC\Documents\Personal\C#\A3\A3\obj\Debug\MainWindow.baml
+D:\Mohammad-PC\Documents\Personal\C#\A3\A3\obj\Debug\A3.g.resources
+D:\Mohammad-PC\Documents\Personal\C#\A3\A3\obj\Debug\A3.Properties.Resources.resources
+D:\Mohammad-PC\Documents\Personal\C#\A3\A3\obj\Debug\A3.csproj.GenerateResource.Cache
+D:\Mohammad-PC\Documents\Personal\C#\A3\A3\obj\Debug\A3.exe
+D:\Mohammad-PC\Documents\Personal\C#\A3\A3\obj\Debug\A3.pdb
