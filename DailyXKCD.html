@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<meta charset="UTF-8"> 
+	</head>
+	<body>
+		<h1 id="ctitle"></h1>
+		<img id="comic" src="">
+
+
+		<script>
+			var html = "ERROR"
+			$.getJSON('http://allorigins.me/get?url=https%3A//c.xkcd.com/random/comic/&callback=?', function(data){
+				html = data.contents
+				parseTitle() //no need just use alt from img
+				parseComic()
+			});
+
+			function parseTitle() {
+				var patt = new RegExp("(ctitle.*>)(.*)(<\/div>)");
+			    var res = patt.exec(html);
+			    document.getElementById("ctitle").innerHTML = res[2]
+			}
+
+			function parseComic() {
+				var patt = new RegExp("(<img src=\\\"\/\/)(imgs\.xkcd\.com\/comics\/.*)(\\\" title)");
+			    var res = patt.exec(html);
+			    document.getElementById("comic").src = "https://" + res[2]
+			}
+
+		</script>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+<head>
+	<style type="text/css">
+		#container {
+          font-size: 4em;
+          text-align: center;
+          margin: 25%
+        }
+	</style>
+</head>
+<body>
+    <div id='container'>Try scrolling up or down in this window</div>
+
+    <script type="text/javascript">
+
+        function someAction(e) {
+          var text = document.getElementById('container');
+          
+          //If value of deltaY is positive, user has scrolled down, else scrolled up
+          if (e.deltaY > 0) {
+              text.innerHTML = 'scrolled down';
+          }
+          else if (e.deltaY < 0) {
+            text.innerHTML = 'scrolled up';
+          }
+        }
+
+        //Add event listeners for different browsers which call the same function.
+        window.addEventListener('mousewheel', someAction, false);
+        window.addEventListener('wheel', someAction, false);
+
+    </script>
+</body>
+
