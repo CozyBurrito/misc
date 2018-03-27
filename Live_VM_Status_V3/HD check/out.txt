@@ -1,0 +1,404 @@
+DeviceID     : A:
+
+DriveType    : 2
+
+ProviderName : 
+
+FreeSpace    : 
+
+Size         : 
+
+VolumeName   : 
+
+
+
+
+DeviceID     : C:
+
+DriveType    : 3
+
+ProviderName : 
+
+FreeSpace    : 19695616000
+
+Size         : 64316502016
+
+VolumeName   : 
+
+
+
+DeviceID     : D:
+
+DriveType    : 5
+
+ProviderName : 
+
+FreeSpace    : 
+
+Size         : 
+
+VolumeName   : 
+
+
+
+DeviceID     : A:
+
+DriveType    : 2
+
+ProviderName : 
+
+FreeSpace    : 
+
+Size         : 
+
+VolumeName   : 
+
+
+
+DeviceID     : C:
+
+DriveType    : 3
+
+ProviderName : 
+
+FreeSpace    : 16317440000
+
+Size         : 53160701952
+
+VolumeName   : 
+
+
+
+DeviceID     : D:
+
+DriveType    : 5
+
+ProviderName : 
+
+FreeSpace    : 
+
+Size         : 
+
+VolumeName   : 
+
+
+
+DeviceID     : A:
+
+DriveType    : 2
+
+ProviderName : 
+
+FreeSpace    : 
+
+Size         : 
+
+VolumeName   : 
+
+
+
+DeviceID     : C:
+
+DriveType    : 3
+
+ProviderName : 
+
+FreeSpace    : 23054901248
+
+Size         : 63843594240
+
+VolumeName   : 
+
+
+
+DeviceID     : D:
+
+DriveType    : 5
+
+ProviderName : 
+
+FreeSpace    : 
+
+Size         : 
+
+VolumeName   : 
+
+
+
+DeviceID     : A:
+
+DriveType    : 2
+
+ProviderName : 
+
+FreeSpace    : 
+
+Size         : 
+
+VolumeName   : 
+
+
+
+DeviceID     : C:
+
+DriveType    : 3
+
+ProviderName : 
+
+FreeSpace    : 30224470016
+
+Size         : 63843594240
+
+VolumeName   : 
+
+
+
+DeviceID     : D:
+
+DriveType    : 5
+
+ProviderName : 
+
+FreeSpace    : 0
+
+Size         : 2716784640
+
+VolumeName   : SQL2016_x64_ENU
+
+
+
+DeviceID     : A:
+
+DriveType    : 2
+
+ProviderName : 
+
+FreeSpace    : 
+
+Size         : 
+
+VolumeName   : 
+
+
+
+DeviceID     : C:
+
+DriveType    : 3
+
+ProviderName : 
+
+FreeSpace    : 1781047296
+
+Size         : 53579083776
+
+VolumeName   : 
+
+
+
+DeviceID     : D:
+
+DriveType    : 5
+
+ProviderName : 
+
+FreeSpace    : 0
+
+Size         : 3229007872
+
+VolumeName   : SQL2014_x64_ENU
+
+
+
+DeviceID     : F:
+
+DriveType    : 5
+
+ProviderName : 
+
+FreeSpace    : 
+
+Size         : 
+
+VolumeName   : 
+
+
+
+DeviceID     : A:
+
+DriveType    : 2
+
+ProviderName : 
+
+FreeSpace    : 
+
+Size         : 
+
+VolumeName   : 
+
+
+
+DeviceID     : C:
+
+DriveType    : 3
+
+ProviderName : 
+
+FreeSpace    : 50872225792
+
+Size         : 107005079552
+
+VolumeName   : 
+
+
+
+DeviceID     : D:
+
+DriveType    : 5
+
+ProviderName : 
+
+FreeSpace    : 
+
+Size         : 
+
+VolumeName   : 
+
+
+
+DeviceID     : A:
+
+DriveType    : 2
+
+ProviderName : 
+
+FreeSpace    : 
+
+Size         : 
+
+VolumeName   : 
+
+
+
+DeviceID     : C:
+
+DriveType    : 3
+
+ProviderName : 
+
+FreeSpace    : 44769411072
+
+Size         : 80422629376
+
+VolumeName   : 
+
+
+
+DeviceID     : D:
+
+DriveType    : 5
+
+ProviderName : 
+
+FreeSpace    : 
+
+Size         : 
+
+VolumeName   : 
+
+
+
+DeviceID     : A:
+
+DriveType    : 2
+
+ProviderName : 
+
+FreeSpace    : 
+
+Size         : 
+
+VolumeName   : 
+
+
+
+DeviceID     : C:
+
+DriveType    : 3
+
+ProviderName : 
+
+FreeSpace    : 3548753920
+
+Size         : 26830827520
+
+VolumeName   : 
+
+
+
+DeviceID     : D:
+
+DriveType    : 5
+
+ProviderName : 
+
+FreeSpace    : 
+
+Size         : 
+
+VolumeName   : 
+
+
+
+DeviceID     : C:
+
+DriveType    : 3
+
+ProviderName : 
+
+FreeSpace    : 435692072960
+
+Size         : 499738734592
+
+VolumeName   : 
+
+
+
+DeviceID     : D:
+
+DriveType    : 3
+
+ProviderName : 
+
+FreeSpace    : 104023040
+
+Size         : 106048512
+
+VolumeName   : GHOST
+
+
+
+DeviceID     : E:
+
+DriveType    : 3
+
+ProviderName : 
+
+FreeSpace    : 224091549696
+
+Size         : 249884004352
+
+VolumeName   : Archive
+
+
+
+DeviceID     : F:
+
+DriveType    : 5
+
+ProviderName : 
+
+FreeSpace    : 
+
+Size         : 
+
+VolumeName   : 

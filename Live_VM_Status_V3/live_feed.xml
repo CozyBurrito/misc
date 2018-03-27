@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<ROOT>
+  <VM>
+    <IP></IP>
+    <COMPUTERNAME></COMPUTERNAME>
+    <USERNAME>administrator</USERNAME>
+    <SESSION>rdp-tcp#6</SESSION>
+    <STATE>IN USE</STATE>
+    <UPDATED></UPDATED>
+  </VM>
+  <VM>
+    <IP></IP>
+    <COMPUTERNAME></COMPUTERNAME>
+    <USERNAME>administrator</USERNAME>
+    <SESSION>rdp-tcp#0</SESSION>
+    <STATE>IN USE</STATE>
+    <UPDATED></UPDATED>
+  </VM>
+  <VM>
+    <IP></IP>
+    <COMPUTERNAME></COMPUTERNAME>
+    <USERNAME>N/A</USERNAME>
+    <SESSION>N/A</SESSION>
+    <STATE>NOT IN USE</STATE>
+    <UPDATED></UPDATED>
+  </VM>
+  <VM>
+    <IP></IP>
+    <COMPUTERNAME></COMPUTERNAME>
+    <USERNAME>N/A</USERNAME>
+    <SESSION>N/A</SESSION>
+    <STATE>NOT IN USE</STATE>
+    <UPDATED></UPDATED>
+  </VM>
+  <VM>
+    <IP></IP>
+    <COMPUTERNAME></COMPUTERNAME>
+    <USERNAME>N/A</USERNAME>
+    <SESSION>N/A</SESSION>
+    <STATE>NOT IN USE</STATE>
+    <UPDATED></UPDATED>
+  </VM>
+  <VM>
+    <IP></IP>
+    <COMPUTERNAME></COMPUTERNAME>
+    <USERNAME>administrator</USERNAME>
+    <SESSION>rdp-tcp#11</SESSION>
+    <STATE>IN USE</STATE>
+    <UPDATED></UPDATED>
+  </VM>
+</ROOT>

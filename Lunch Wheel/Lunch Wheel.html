@@ -1,0 +1,77 @@
+<head>
+    <style type="text/css">
+        body {
+          box-sizing: border-box;
+          text-align: center;
+        }
+
+        #wheel {
+          display: inline-block;
+          width: 90%;
+          max-width: 800px;
+          height: 90%;
+          max-height: 800px;
+          margin-top: 3%;
+          transition: transform 10s cubic-bezier(.5,.1,.15,1);
+          transform: rotate(0deg);
+          z-index: 1;
+          pointer-events: none;
+        }
+
+        #peg {
+          display: block;
+          width: 3%;
+          min-width: 15px;
+          max-width: 40px;
+          height: auto;
+          position: absolute;
+          top: 2%;
+          left: 48.5%;
+          z-index: 2;
+        }
+
+        #button {
+          font-size: 24px;
+          border-radius: 10px;
+          width: 100px;
+          height: 60px;
+          color: white;
+          background: #89bd46;
+          border: none;
+          display: inline-block;
+          margin: 25px;
+          z-index: 3;
+        }
+
+        #button:hover, #button:focus {
+          background: #89bd46;
+        }
+    </style>
+
+</head>
+<body>
+    <img src="wheel.png" id="wheel"><br>
+    <img src="peg.png" id="peg"><br>
+    <button id="button">Spin</button>
+    <p>Source: https://codepen.io/blimpage/pen/jEWPeV</p>
+
+</body>
+
+<script type="text/javascript">
+    var wheel = document.querySelector("#wheel"),
+        button = document.querySelector("#button"),
+        rando = 0;
+
+    var spin_wheel = function () {
+      rando += (Math.random() * 360) + 1800;
+
+      wheel.style.webkitTransform = "rotate(" + rando + "deg)";
+      wheel.style.mozTransform = "rotate(" + rando + "deg)";
+      wheel.style.msTransform = "rotate(" + rando + "deg)";
+      wheel.style.transform = "rotate(" + rando + "deg)";
+      
+    }
+
+    button.addEventListener("click", spin_wheel, false);
+
+</script>

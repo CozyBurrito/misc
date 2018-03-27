@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="icon" href="logo.png">
+  <title>Live VM Status</title>
+  
+  <script src="index.js"></script> 
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css\bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
+  
+</head>
+
+<body onload="loadXMLDoc()" style="background-color:#f7ffff;">
+  <!-- Navbar -->
+  <nav class="navbar sticky-top navbar-expand-md navbar navbar-light mb-4" style="background-color: #e3f2fd;">
+    <a class="navbar-brand" href="index.html">
+      <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt=""> Live VM Status
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="http:///mediawiki/index.php/Live_VM_Status">Wiki</a>
+        </li>
+      </ul>
+      
+      <button class="btn btn-primary mr-md-4" onclick="loadXMLDoc()"><span class="fa fa-refresh mr-md-1"></span> Refresh</button>
+      
+      <form class="form-inline my-2 my-lg-0 mr-lg-2">
+       <div class="input-group">
+          <input class="form-control" id="input" type="search" placeholder="Search" aria-label="Search" required></input>
+          <span class="input-group-btn">
+            <button class="btn btn-outline-primary my-2 my-md-0" onclick="search()"><i class="fa fa-search"></i></button>
+          </span>
+        </div>
+      </form>
+      
+    </div>
+  </nav>
+
+  <!-- Body -->
+  <div class="container-fluid" >
+	<div class="row">
+		<div class="col-1">
+		</div>
+		<div class="col-10" id="statusList">
+		</div>
+		<div class="col-1">
+		</div>
+	</div>
+  </div>
+  
+  <!-- Footer -->
+  <footer>
+  </footer>
+
+  <!-- Bootstrap JavaScript -->
+  <script src="js\jquery-3.2.1.slim.min.js"></script>
+  <script src="js\popper.min.js"></script>
+  <script src="js\bootstrap.min.js"></script>
+
+</body>
+
+</html>
